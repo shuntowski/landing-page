@@ -35,7 +35,7 @@ button,
 /* Header */
 
 .header {
-    padding: 24px 48px 24px;
+    display: flex;
 }
 
 .header .bounding-box{
@@ -43,6 +43,8 @@ button,
     justify-content: space-between;
     white-space: nowrap;
     flex-wrap: wrap;
+    margin: 15px 150px;
+    flex-grow: 1;
 }
 
 .header h1 {
@@ -69,9 +71,40 @@ button,
 /* Hero Text */
 
 .hero-text {
-    padding: 24px 48px 24px;
+    display: flex;
 }
 
 .hero-text .bounding-box {
     display: flex;
+    gap: 30px;
+    margin: 100px 150px;
+}
+
+.hero-text-main h2 {
+    font-weight: 800;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-text-main p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text-main button {
+    border-radius: 8px;
+    padding: 6px 12px;
+    color: #F9FAF8;
+    border: none;
+}
+
+.hero-text-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bounding-box img {
+    height: 300px;
+    width: auto;
 }
