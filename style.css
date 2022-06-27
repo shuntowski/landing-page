@@ -108,3 +108,19 @@ button,
     height: 300px;
     width: auto;
 }
+
+/* images section */
+
+.images {
+    display: flex;
+}
+
+.images .bounding-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-main {
+    display: flex;
+}
