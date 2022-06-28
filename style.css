@@ -92,8 +92,8 @@ button,
 }
 
 .hero-text-main button {
-    border-radius: 8px;
-    padding: 6px 12px;
+    border-radius: 5px;
+    padding: 10px 15px;
     color: #F9FAF8;
     border: none;
 }
@@ -176,4 +176,46 @@ button,
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+}
+
+/* Call to action */
+
+.call-to-action .bounding-box {
+    display: flex;
+    margin: 100px 150px;
+    border-radius: 10px;
+    padding: 50px 150px;
+    justify-content: space-between;
+}
+
+.call-to-action .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.call-to-action h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: 0;
+}
+
+.call-to-action p {
+    color: #E5E7EB;
+    margin: 0;
+    font-size: 18px;
+}
+
+.call-to-action button {
+    color: #F9FAF8;
+    border: solid #F9FAF8 2px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.call-to-action .button {
+    display: flex;
+    align-items: center;
 }
